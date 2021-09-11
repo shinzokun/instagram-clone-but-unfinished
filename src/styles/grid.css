@@ -1,0 +1,18 @@
+div.Content-container {
+  display: grid;
+  grid-template-areas:
+    "Stories Stories Sidebar"
+    "Feed Feed Sidebar"
+    "Feed Feed Sidebar";
+
+  /* grid-template-columns: 3fr 2fr; */
+}
+div.Stories-app {
+  grid-area: Stories;
+}
+div.Feed-app {
+  grid-area: Feed;
+}
+div.Sidebar-app {
+  grid-area: Sidebar;
+}

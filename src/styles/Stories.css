@@ -1,0 +1,19 @@
+img.Profile-tag {
+  border-width: 3px;
+  border-style: solid;
+  border-color: linear-gradient(62dg, #fbab7e, #f7ce68);
+  border-radius: 100px;
+}
+div.Stories-app::-webkit-scrollbar {
+  display: none;
+}
+div.Stories-app {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  width: 35rem;
+}
+h3.Username-tag {
+  padding-top: 0.1rem;
+  font-size: 0.73rem;
+  line-height: 1rem;
+}
